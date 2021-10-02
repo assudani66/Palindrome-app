@@ -11,6 +11,7 @@ hr{
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    font-weight:initial;
 }
 
 .container {
@@ -30,37 +31,26 @@ body{
     padding: 0.5rem 1rem;
     
 }
-.link-Primary{
+    #btn-check{
     background-color: var(--primarycolor);
     border-radius: 0.5rem;
     color: white;
+    padding: 0.25rem;
+    font-size: larger;
 
 
 }
-.link-secondary{
-    color: var(--primarycolor);
-    border-radius: 0.5rem;
-    border: 1px var(--primarycolor) solid;
-}
-.lists-no-bullets{
-    list-style-type: none;
-    padding: 1rem;
-}
-.lists-inline{
-    display: inline-block;
-    padding: 0rem 1rem ;
-}
+
 .banner{
     background-color: var(--primarycolor);
     color: white;
     border-bottom-left-radius: 1rem;
-    color: white;
-    text-decoration: none;
     padding: 1rem;
     font-weight: bold;
 }
-.banner{
-
+.heading{
+    font-size: large;
+    
 }
 .nav-pills{
     text-align: right;
@@ -78,8 +68,8 @@ body{
 .normal-section h2{
     text-align: center;
 }
-.off-white-section {
-    background-color:lightgrey;
+.calculate {
+
     padding: 1rem;
 }
 .footer{
